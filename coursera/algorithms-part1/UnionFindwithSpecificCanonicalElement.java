@@ -26,9 +26,10 @@ public class UnionFindwithSpecificCanonicalElement {
 	{
 	   id = new int[N];
 	   sz = new int[N];
+	   max = new int[N];
 	   for (int i = 0; i < N; i++) {
 		   id[i] = i;
-		   id[i]-=i;
+		   max[i]=i;
 		   sz[i]=1;
 	   }
 	}
